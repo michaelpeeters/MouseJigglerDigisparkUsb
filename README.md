@@ -1,12 +1,15 @@
 
-= PlatformIO project for MouseJitter setup of the Digispark USB
-setup PlatformIO in VSCode + install Digispark
+# PlatformIO project for MouseJitter setup of the Digispark USB
 
 original code https://air-gap.com.au/how-to-make-a-mouse-jiggler-with-digispark/
 
-= troubleshoot PlatformIO on Ubuntu :
+## setup
 
-== use latest micronucleus on PlatformIO
+PlatformIO in VSCode + install Digispark
+
+## troubleshoot PlatformIO on Ubuntu :
+
+### use latest micronucleus on PlatformIO
 https://kovo-blog.blogspot.com/2019/01/how-to-upgrade-bootloader-on-digistump.html
 ```
 git clone https://github.com/micronucleus/micronucleus.git
@@ -16,7 +19,7 @@ mv ~/.platformio/packages/tool-micronucleus/micronucleus  ~/.platformio/packages
 cp micronucleus ~/.platformio/packages/tool-micronucleus/micronucleus
 ```
 
-== fix the UDEV rules
+### fix the UDEV rules
 
  http://digistump.com/wiki/digispark/tutorials/linuxtroubleshooting#ubuntu_troubleshooting
 
@@ -44,6 +47,3 @@ reload udev:
 ```
 sudo udevadm control --reload-rules
 ```
-
-
-https://air-gap.com.au/how-to-make-a-mouse-jiggler-with-digispark/
