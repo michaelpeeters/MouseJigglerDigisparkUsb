@@ -1,5 +1,5 @@
 
-# PlatformIO project for MouseJitter setup of the Digispark USB
+# PlatformIO project for MouseJiggler setup of the Digispark USB
 
 original code https://air-gap.com.au/how-to-make-a-mouse-jiggler-with-digispark/
 
